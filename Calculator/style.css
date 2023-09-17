@@ -1,0 +1,76 @@
+.heading {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    height: 40rem;
+    width: 60rem;
+    translate: 30%;
+    background-color: #1d3849;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 35rem;
+    width: 32rem;
+    align-self: center;
+    background-color: #a2bbcf;
+    border-radius: 0.5rem;
+}
+
+.display-screen {
+    height: 5rem;
+    width: 28rem;
+    margin-top: 1rem;
+    text-align: center;
+    align-self: center;
+    border-radius: 0.5rem;
+    background-color: #205b7a;
+}
+
+.display-result {
+    width: 98%;
+    height: 100%;
+    border: none;
+    font-size: 3rem;
+    color: white;
+    border-radius: 0.5rem;
+    background-color:#205b7a;
+}
+
+.buttons {
+    display: grid;
+    grid-gap: 5px 5px;
+    grid-template-rows: repeat(5,1fr);
+    grid-template-columns: repeat(4,1fr);
+    width: 28rem;
+    height: 25rem;
+    align-self: center;
+    margin-bottom: 1rem;
+    background-color:#142f44;
+    border-radius: 0.5rem;
+}
+
+.zero {
+    width: 100%;
+    height: 100%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#num-btn, #dot-btn{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    background-color:rgb(222, 175, 175);
+}
+
+#opr-btn {
+    width: 95%;
+    height: 100%;
+    border-radius: 50%;
+}
